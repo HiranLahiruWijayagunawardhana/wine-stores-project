@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.root {
+  --main-color:#000000;
+  --second-color:#ffff00e3;
+
+}
+.section {
+  padding: 50px 10%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(789.jpg);
+    background-size: cover;
+
+}
+
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    padding: 70px 20px;
+    text-align: center;
+    flex: 1;
+  }
+  .navbar img {
+    width: 65px;
+    height: 50px;
+    margin: auto;
+    position: center;
+  }
+
+  .navbar a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    transition:background 0.5s;
+    border-radius: 20px;
+    
+  }
+  
+  .navbar a:hover{
+    background: #38393a;
+  }
+
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+  }
+  .shop-container .box {
+    flex: 1 1 10rem;
+    background: var(--main-color);
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    outline: auto;
+  }
+  .shop-container.box .box-img{
+    width: 150px;
+    height: 150px;
+    margin-top: -200px;
+    
+  }
+  .shop-container .box .box-img img{
+    width: 210px;
+    height: 210px;
+    object-fit: contain;
+    object-position: center;
+  }
+  .shop-container .box h3 {
+    color: white;
+    font-size: 15px;
+  }
+  .shop-container .box span {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0.2rem 0 0.5rem;
+    margin-top: 1rem;
+  }
+  .box .btn {
+    border: 2px solid #ebdbc8;
+    color:#ffffff;
+    margin: 0.2rem 0 0.5rem;
+    margin-left: 1rem;
+  }
+  .box .btn:hover {
+    background: #ebdbc8c9;
+    color: #000000;
+  }
+  
+  h1{
+    color: white;
+    margin-left: 17%;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  input{
+    margin-left: 20%;
+    background-color: rgb(56, 1, 1);
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    color: red;
+    border-color: yellow;
+  }
+  

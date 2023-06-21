@@ -1,0 +1,90 @@
+
+.leftside .rightside{
+  
+    width: 100%;
+}
+
+.leftside{
+    float: left;
+    height: 700px;
+    width: 50%;
+    background-image: url(IMG-20230406-WA0026.jpg);
+    background-size: contain;
+}
+
+body{
+    background-color: black;
+}
+
+.rightside{
+   
+    float: right;
+    height: 700px;
+    width: 50%;
+}
+
+.heading1{
+    margin-left: 45%;
+    color: white;
+    font-size: 23px;
+    
+}
+
+.table{
+    margin-left: 43%;
+}
+
+.heading2{
+    padding: 2px;
+    margin-left: 45%;
+    color: white;
+    font-size: 23px;
+    
+}
+
+.heading3{
+    margin-left: 45%;
+    color: white;
+    font-size: 23px;
+}
+
+.heading4{
+    margin-left: 45%;
+    color: white;
+    font-size: 23px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    padding: 70px 20px;
+    text-align: center;
+    flex: 1;
+  }
+  .navbar img {
+    width: 65px;
+    height: 50px;
+    margin: auto;
+    position: center;
+  }
+
+  .navbar a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    transition:background 0.5s;
+    border-radius: 20px;
+    
+  }
+  
+  .navbar a:hover{
+    background: #38393a;
+  }

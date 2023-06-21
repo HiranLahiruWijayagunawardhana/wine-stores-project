@@ -1,0 +1,37 @@
+
+.desc{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px ;
+    color: white;
+}
+table{
+    width: 80%;
+    margin-left: 15%;
+    border-radius: 15px;
+    color: white;
+}
+
+td{
+    width: 25%;
+    border: 5px;
+    color: gray;
+}
+img{
+    border-radius:5px 5px 5px gray ;                              
+    padding: 5px;
+}
+
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+body{
+    background-image: url(gggg.jpg);
+    background-size: cover;
+}
